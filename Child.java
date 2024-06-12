@@ -1,7 +1,7 @@
-
 /*
------------------------------------------------------------------------
-In This Program ! Abstract Does Not Required At least One Abstract Method  
+--------------------------------------------------------------------------
+In This Program ! Abstract Does Not Required At least One Abstract Method 
+
 abstract class Base{
     int x;
     int y;
@@ -22,7 +22,7 @@ class Child extends Base{
     }
 }
 -------------------------------------------------------------------------------    
-*/
+
 // Abstraction Only achieved and Overiding by Inheritance 
 
 abstract class Base {
@@ -57,3 +57,31 @@ class Child extends Base {
        m1.register(c);
     }
 }
+
+---------------------------------------------------------------------------------------------
+// Books Describe Like this.....
+
+abstract class Base{
+    int x;
+    int y;
+    void show(){
+        System.out.println(x);
+        System.out.println(y);
+    }
+    abstract void display();
+}
+class Child extends Base{
+    void get(int x , int y){
+        this.x = x; 
+        this.y = y;
+    }
+    void display(){
+        System.out.println("Display");
+    }
+    public static void main(String[] args) {
+        Child c = new Child();
+        c.display();
+    }
+}
+
+*/
