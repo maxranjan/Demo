@@ -25,11 +25,9 @@ class Child2 implements my, my1{
         System.out.println(" This is Display");
     }
     public static void main(String[] args) {
-        my m = new Child1();
+        my m = new Child2();
         m.show();
-        my1 m1 = new Child1();
+        my1 m1 = new Child2();
         m1.play();
-        my2 m2 = new Child1();
-        m2.display();
     }
 }
