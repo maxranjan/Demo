@@ -15,7 +15,7 @@ interface my2 extends my, my1{
 class Child2 implements my, my1{
     public void show(){
         
-        System.out.println("  This is Show");
+        System.out.println("This is Show");
     }
 
     public void play(){
