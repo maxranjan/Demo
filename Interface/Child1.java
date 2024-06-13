@@ -5,7 +5,7 @@ interface my{
 interface my1 extends my{
 // Here the both method are same but no Error in the programs because 
 // In interface we can create same method in interface and also to be extends.
-    public void show();   
+    void show();   
 }
 // we can implement more than one interface in our child class. Like my, my1.
 class Child1 implements my, my1{
