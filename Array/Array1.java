@@ -2,7 +2,7 @@ public class Array1 {
     public static void main(String[] args) {
         // Array Declaration
         // int[] a;
-        // Array creation
+        // Array creation.
         // a = new int[3];
 
         // Array creation and Declaratoion in one line
