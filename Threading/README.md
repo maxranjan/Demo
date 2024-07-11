@@ -29,3 +29,14 @@ If you want to perform a different different task on a different differernt thre
 If you want to perform a common task on each thread then make ine thread class and crate multiple object of that thread class. 
 
  
+# 10
+If you call run() method explicitly then no new thread is going to be started.
+
+# 11
+In java the highest priority thread will be in running state.
+
+# 12
+No thread can be made dead forcly 
+
+# 13
+Bydefault the pririty of main thread is tranfred to the child thread.
